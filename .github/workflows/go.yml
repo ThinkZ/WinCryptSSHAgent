@@ -22,7 +22,7 @@ jobs:
 
     - name: Build
       shell: cmd
-      run: build.bat
+      run: build.bat amd64
 
     - name: Upload Release
       uses: softprops/action-gh-release@v1

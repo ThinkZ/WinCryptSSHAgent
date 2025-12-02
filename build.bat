@@ -1,6 +1,8 @@
 @echo off
 setlocal
 
+go install github.com/josephspurrier/goversioninfo/cmd/goversioninfo@latest
+
 @rem Build all by default
 if [%1]==[] (
 	go generate

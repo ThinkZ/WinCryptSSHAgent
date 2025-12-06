@@ -23,7 +23,7 @@ import (
 	"golang.org/x/sys/windows/registry"
 )
 
-const agentTitle = "WinCrypt SSH Agent v1.1.9"
+const agentTitle = "WinCrypt SSH Agent v1.1.10-a"
 
 var applications = []app.Application{
 	new(app.PubKeyView),

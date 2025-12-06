@@ -15,3 +15,5 @@ require (
 replace github.com/hattya/go.notify v0.0.0-20200507123844-18670158b53e => github.com/buptczq/go.notify v0.0.0-20210108030838-37adc71f67d9
 
 replace github.com/Microsoft/go-winio v0.4.16 => github.com/buptczq/go-winio v0.4.16-1
+
+replace github.com/buptczq/WinCryptSSHAgent => ../WinCryptSSHAgent
